@@ -834,6 +834,20 @@ a:hover:not(.button) {
     color: #000000 !important;
     cursor: pointer !important;
     z-index: 10003 !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+#navPanel .close:before {
+    position: static !important;
+    width: 100% !important;
+    height: 100% !important;
+    line-height: 2.5rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 #navPanel .close:hover {
