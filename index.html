@@ -1,331 +1,147 @@
-<!DOCTYPE HTML>
-<!--
-	Theory by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Rion Glenn Nazareth</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" type="image/jpeg" href="images/agn.jpg" />
-		<link rel="alternate icon" href="images/agn.jpg" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/minimal.css" />
-	</head>
-	<body>
+<head>
+	<title>Rion Glenn Nazareth</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/jpeg" href="images/agn.jpg" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/minimal.css" />
+</head>
+<body>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="index.html" class="logo"></a>
-					<nav id="nav">
-						<a href="index.html">Home</a>
-						<a href="#about">About Me</a>
-						<a href="#research">Research</a>
-						<!-- <a href="misc/cv_rion.pdf">CV</a> -->
-						<!-- <a href="blog.html">Blog</a> -->
-						<a href="#contact">Contact</a>
-						<!-- <a href="elements.html">element</a> -->
-					</nav>
-					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="index.html" class="logo"></a>
+			<nav id="nav">
+				<a href="index.html">Home</a>
+				<a href="#about">About Me</a>
+				<a href="#research">Research</a>
+				<a href="#contact">Contact</a>
+			</nav>
+			<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		</div>
+	</header>
+
+	<!-- Banner -->
+	<section id="banner">
+		<h1>Rion Glenn Nazareth</h1>
+		<p>Welcome to my site!</p>
+	</section>
+
+	<!-- About -->
+	<section id="about" class="wrapper style1 special">
+		<div class="inner">
+			<header><h2>About Me</h2></header>
+			<div class="about-layout">
+				<div class="pfpimage">
+					<img src="images/rion_photoshoot.jpg" alt="Rion Nazareth" />
 				</div>
+				<p class="bio">
+					I am a PhD student at Newcastle University studying how supermassive black holes shape the galaxies they live in. My research uses computer simulations to explore how powerful winds launched by black holes interact with the surrounding gas, affecting how galaxies grow, form stars, and produce signals that astronomers can observe. Before starting my PhD, I completed my master's in physics at NISER, Bhubaneswar, India, where I studied magnetic fields in galaxies. I am originally from Mangalore, India.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Research -->
+	<section id="research" class="wrapper special">
+		<div class="inner">
+			<header class="align-center">
+				<h2>Research</h2>
+				<p>Some of my research projects</p>
 			</header>
-		<!-- Banner -->
-			<section id="banner">
-				<h1>Rion Glenn Nazareth</h1>
-				<p>Welcome to my site!</p>
-			</section>
+			<div class="research-list">
 
-		<!-- One -->
-			<!-- <section id="two" class="wrapper">
-				<div class="inner">
-					<div class="flex flex-3">
-						<article>
-							<header>
-								<h3>Magna tempus sed amet<br /> aliquam veroeros</h3>
-							</header>
-							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
-							<footer>
-								<a href="#" class="button special">More</a>
-							</footer>
-						</article>
-						<article>
-							<header>
-								<h3>Interdum lorem pulvinar<br /> adipiscing vitae</h3>
-							</header>
-							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
-							<footer>
-								<a href="#" class="button special">More</a>
-							</footer>
-						</article>
-						<article>
-							<header>
-								<h3>Libero purus magna sapien<br /> sed ullamcorper</h3>
-							</header>
-							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
-							<footer>
-								<a href="#" class="button special">More</a>
-							</footer>
-						</article>
+				<article>
+					<div class="image fit">
+						<img src="images/agn.jpg" alt="AGN feedback"
+							title="Artist's illustration of high-speed jets emitted from a supermassive black hole at the center of an active galaxy. [ESA/Hubble, L. Calçada (ESO)]">
 					</div>
-				</div>
-			</section> -->
-
-		<!-- Two -->
-			<section id="about" class="wrapper style1 special">
-				
-				<div class="inner">
 					<header>
-						<h2>About Me</h2>
+						<h3>Feedback from AGN-driven Winds</h3>
 					</header>
-					<div class="row">
-						<!-- <div class="6u$ 12u$(small)">-->
-						<div class="6u 12u$(medium)">
-							<div class="pfpimage">
-								<img id = "image" src="images/rion_photoshoot.jpg" alt="Person 1" />
-								<!-- <script>
+					<p>
+						Currently, I am working on probing the impact of relativistic particles on galactic outflows and the thermal and non-thermal observational signatures of feedback in bright AGN. In particular, I am interested in understanding the observed link between AGN obscuration and radio emission. Stay tuned for updates!
+					</p>
+				</article>
 
-									var imageSources = ["images/rion_alt2.jpg", "images/rion_alt3.jpg","images/rion_alt4.jpg"]
-									
-									var index = 0;
-									setInterval (function(){
-									  if (index === imageSources.length) {
-										index = 0;
-									  }
-									  document.getElementById("image").src = imageSources[index];
-									  index++;
-									} , 5000);
-									
-								</script> -->
-							</div>
-						</div>
-						<div class="6u$ 12u$(medium)">
-							<blockquote >
-								I am PhD student at Newcastle University studying how supermassive black holes shape the galaxies they live in. My research uses computer simulations to explore how powerful winds launched by black holes interact with the surrounding gas, affecting how galaxies grow, form stars, and produce signals that astronomers can observe. Before starting my PhD, I completed my master's in physics at NISER, Bhubaneswar, India, where I studied magnetic fields in galaxies. I am originally from Mangalore, India.				</div>				
+				<article>
+					<div class="image fit">
+						<img src="images/galmag.jpg" alt="galactic magnetic fields"
+							title="The magnetic field in the Whirlpool Galaxy (M51), captured by NASA's SOFIA observatory superimposed on a Hubble image. Credit: NASA, SOFIA, HAWC+, Alejandro S. Borlaff; JPL-Caltech, ESA, Hubble">
 					</div>
-				</div>
-			</section>
-
-		<!-- Three -->
-			<section id="research" class="wrapper special">
-				<div class="inner">
-					<header class="align-center">
-						<h2>Research</h2>
-						<p>Some of my research projects </p>
-					</header>
-					<div class="flex flex-2">
-						<article>
-							<div class="image fit">
-								<img src="images/agn.jpg" width = 300 height = 200 alt="AGN feedback" title="Artist’s illustration of high-speed jets emitted from a supermassive black hole at the center of an active galaxy. [ESA/Hubble, L. Calçada (ESO)]">
-								<!-- <img src="images/pic01.jpg" alt="Pic 01" /> -->
-							</div>
-							<header>
-								<h3>Feedback from AGN-driven Winds</h3>
-							</header>
-							<p>
-								<br>
-								Currently, I am working on probing the impact of relativistic particles on galactic outflows and the thermal and non-thermal observational signatures of feedback in bright AGN. In particular, I am interested in understanding the observed link between AGN obscuration and radio emission.
-								<br>
-								<br>
-								Stay tuned for updates!								
-								</p>
-							
-						</article>
-
-						<article>
-							<div class="image fit">
-								<img src="images/galmag.jpg" width = 300 height = 200 alt="galactic magnetic fields" title="The magnetic field in the Whirlpool Galaxy (M51), captured by NASA's flying Stratospheric Observatory for Infrared Astronomy (SOFIA) observatory superimposed on a Hubble telescope picture of the galaxy. The image shows infrared images of grains of dust in the M51 galaxy. Their magnetic orientation largely follows the spiral shape of the galaxy, but it is also being pulled in the direction of the neighboring galaxy at the right of the frame. (Credit: NASA, SOFIA, HAWC+, Alejandro S. Borlaff; JPL-Caltech, ESA, Hubble)">
-								<!-- <img src="images/pic01.jpg" alt="Pic 01" /> -->
-							</div>
-							<header>
-								<h3>Galactic Magnetic Fields</h3>
-							</header>
-							<p>
-								<br>
-								Many spiral galaxies host magnetic fields with energy densities comparable to those of the turbulent and thermal motions of their interstellar gas. These magnetic fields confine cosmic rays and affect the structure and dynamics of the interstellar medium. Galactic magnetic field models have generally relied on certain microphysical parameters that are challenging to constrain. We address this problem, by developing a new framework that uses observable quantities as input: the galaxy rotation curve, the surface densities of the gas, stars and star formation rate, and the gas temperature. 
-								<br>
-								<br>
-								Our results show that the scaling relation predictions of our model are in good agreement with the observed galaxy properties. Despite its simplicity, the inferred free-parameter values are remarkably consistent across the four nearby galaxies to which we apply the model. This consistency suggests that the model can reliably predict turbulence and magnetic-field properties in galaxies where these quantities have not yet been measured. This has direct implications on our ability to make statistical inferences on galactic magnetic fields, potentially explaining the various processes that shape them. 
-								
-								<!-- <br>
-									— The code solves for the magnetic field resulting in a closed‑form analytical solution. This is used to calculate the relevant
-									scaling relations.
-								<br>
-								<b>• Semi‑analytical model applied to nearby galaxies <a href = "https://github.com/Rnazx/goblin">[Github]</a></b>
-								<br>
-								— The validity of the model is confirmed by comparing the semi‑analytical solutions, with the observed magnetic field of the
-								galaxies in our local group. -->
-								</p>
-							<footer>
-								<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad3205" class="button special">Paper I</a>
-								<a href="https://github.com/Rnazx/Scaling-Relations" class="button special">Code I</a>
-								<br>
-								<br>
-								<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ade13e" class="button special">Paper II</a>
-								<a href="https://github.com/Rnazx/goblin" class="button special">Code II</a>
-							</footer>
-						</article>
-
-						<article>
-							<div class="image fit">
-								<img src="images/europa_banner.jpeg" width = 300 height = 200 title="The puzzling, fascinating surface of Jupiter's icy moon Europa looms large in this reprocessed color view, made from images taken by NASA's Galileo spacecraft in the late 1990s. Credit: NASA/JPL-Caltech/SETI Institute" 
-								alt="europa" />
-							</div>
-							<header>
-								<h3>Lineaments on the Surface of Europa</h3>
-							</header>
-							<p>
-								<br>
-								During my master's research, I developed machine learning models to identify and predict linear geological features (lineaments) on Europa's surface—a crucial step in searching for potential biosignatures in spectral data from these regions. I trained multiple models using datasets created with different annotation techniques and proposed a novel hybrid approach that combines convolutional neural networks with random forest algorithms.
-								<br>
-								<!-- <br>
-								• This work was presented in Lunar and Planetary Science Conference (LPSC) and the Indian Planetary Science Conference
-								(IPSC). -->
-							</p>
-							<footer>
-								<a href="https://emb1ues.github.io/21cs460_group17/" class="button special">More</a>
-							</footer>
-						</article>
-					
-						<!-- <article>
-							<div class="image fit">
-								<img src="images/pic02.jpg" alt="Pic 02" />
-							</div>
-							<header>
-								<h3>Fusce pellentesque tempus</h3>
-							</header>
-							<p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna non comodo sodales tempus.</p>
-							<footer>
-								<a href="#" class="button special">More</a>
-							</footer>
-						</article> -->
-					</div>
-				</div>
-			</section>
-
-		<!-- Contact -->
-			<section id="contact" class="wrapper style1 special">
-				<div class="inner">
 					<header>
-						<h2>Contact</h2>
-						<p>Feel free to reach out if you'd like to collaborate or discuss research. I am also passionate about teaching and outreach, so please do not hesitate to contact me if you'd like me to give a talk or share science.</p>
+						<h3>Galactic Magnetic Fields</h3>
 					</header>
-					<div class="contact-content">
-						<p class="contact-email">
-							<a href="mailto:rionglennnazareth@gmail.com">rionglennnazareth@gmail.com</a>
-						</p>
-						<p class="contact-location">Newcastle University · Newcastle upon Tyne, UK</p>
-						<ul class="contact-icons">
-							<li><a href="https://scholar.google.com/citations?user=Z91IGS0AAAAJ&hl=en" class="icon fa-graduation-cap" target="_blank" rel="noopener noreferrer"><span class="label">Google Scholar</span></a></li>
-							<li><a href="https://github.com/Rnazx" class="icon fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
-							<li><a href="https://linkedin.com/in/riong" class="icon fa-linkedin" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
-						</ul>
+					<p>
+						Many spiral galaxies host magnetic fields with energy densities comparable to those of the turbulent and thermal motions of their interstellar gas. These magnetic fields confine cosmic rays and affect the structure and dynamics of the interstellar medium. We developed a new framework that uses observable quantities as input: the galaxy rotation curve, the surface densities of the gas, stars and star formation rate, and the gas temperature. Our results show that the scaling relation predictions of our model are in good agreement with the observed galaxy properties, and the inferred free-parameter values are remarkably consistent across the four nearby galaxies to which we apply the model.
+					</p>
+					<footer>
+						<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad3205" class="button special">Paper I</a>
+						<a href="https://github.com/Rnazx/Scaling-Relations" class="button special">Code I</a>
+						<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ade13e" class="button special">Paper II</a>
+						<a href="https://github.com/Rnazx/goblin" class="button special">Code II</a>
+					</footer>
+				</article>
+
+				<article>
+					<div class="image fit">
+						<img src="images/europa_banner.jpeg" alt="Europa"
+							title="The surface of Jupiter's icy moon Europa. Credit: NASA/JPL-Caltech/SETI Institute">
 					</div>
+					<header>
+						<h3>Lineaments on the Surface of Europa</h3>
+					</header>
+					<p>
+						During my master's research, I developed machine learning models to identify and predict linear geological features (lineaments) on Europa's surface — a crucial step in searching for potential biosignatures in spectral data from these regions. I trained multiple models using datasets created with different annotation techniques and proposed a novel hybrid approach that combines convolutional neural networks with random forest algorithms.
+					</p>
+					<footer>
+						<a href="https://emb1ues.github.io/21cs460_group17/" class="button special">More</a>
+					</footer>
+				</article>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact -->
+	<section id="contact" class="wrapper style1 special">
+		<div class="inner">
+			<header>
+				<h2>Contact</h2>
+				<p>Feel free to reach out if you'd like to collaborate or discuss research. I am also passionate about teaching and outreach, so please do not hesitate to contact me if you'd like me to give a talk or share science.</p>
+			</header>
+			<div class="contact-content">
+				<p class="contact-email">
+					<a href="mailto:rionglennnazareth@gmail.com">rionglennnazareth@gmail.com</a>
+				</p>
+				<p class="contact-location">Newcastle University · Newcastle upon Tyne, UK</p>
+				<ul class="contact-icons">
+					<li><a href="https://scholar.google.com/citations?user=Z91IGS0AAAAJ&hl=en" class="icon fa-graduation-cap" target="_blank" rel="noopener noreferrer"><span class="label">Google Scholar</span></a></li>
+					<li><a href="https://github.com/Rnazx" class="icon fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+					<li><a href="https://linkedin.com/in/riong" class="icon fa-linkedin" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="flex">
+				<div class="copyright">
+					&copy; Rion Glenn Nazareth
 				</div>
-			</section>
-			<!-- <hr /> -->
-				<!-- Four -->
-				<!-- <section id="contact" class="wrapper special">
-					<div class="inner">
-						<header class="align-center">
-							<h2>Contact Me</h2>
-						</header>
-								<form onsubmit="sendEmail() ; reset(); return false">
-									<div class="row uniform">
-										<div class="6u 12u$(xsmall)">
-											<input type="text" name="name" id="name" value="" placeholder="Name" />
-										</div>
-										<div class="6u$ 12u$(xsmall)">
-											<input type="email" name="email" id="email" value="" placeholder="Email" />
-										</div>
-										<div class="12u$">
-											<div class="select-wrapper">
-												<select name="category" id="category">
-													<option value="">- Category -</option>
-													<option value="1">Professional</option>
-													<option value="1">Personal</option>
-												</select>
-											</div>
-										</div>
-										<div class="4u 12u$(small)">
-											<input type="radio" id="priority-low" name="priority" checked>
-											<label for="priority-low">Low Priority</label>
-										</div>
-										<div class="4u 12u$(small)">
-											<input type="radio" id="priority-normal" name="priority">
-											<label for="priority-normal">Normal Priority</label>
-										</div>
-										<div class="4u$ 12u$(small)">
-											<input type="radio" id="priority-high" name="priority">
-											<label for="priority-high">High Priority</label>
-										</div>
-										<div class="6u 12u$(small)">
-											<input type="checkbox" id="copy" name="copy">
-											<label for="copy">Email me a copy of this message</label>
-										</div>
-										<div class="6u$ 12u$(small)">
-											<input type="checkbox" id="human" name="human" checked>
-											<label for="human">I am a human and not a robot</label>
-										</div>
-										<div class="12u$">
-											<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-										</div>
-										<div class="12u$">
-											<ul class="actions">
-												<li><input type="submit" value="Send Message" /></li>
-												<li><input type="reset" value="Reset" class="alt" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
-								
-						</div>
-					</div>
-					<script>
-						if (document.getElementById("copy").value == true){
-							sendEmail("Copy of your message...",document.getElementById("email").value)
-						}
-					</script>
-					<script> src="https://smtpjs.com/v3/smtp.js"</script>
-					<script>
-						function sendEmail(){
-							Email.send({
-							Host : "smtp.elasticemail.com",
-							Username : "rionazareth@gmail.com",
-							Password : "AFCC06C447749A5AC7C6715688A94256A0F4",
-							To : 'riong.nazareth@niser.ac.in',
-							From : document.getElementById("email").value,
-							Subject : 'Message from your website',
-							Body : "Name: "+document.getElementById("name").value
-									+"<br> Email: "+document.getElementById("email").value
-									// +"<br> Priority: "+document.getElementsByName("priority").value
-									+"<br> Message: "+document.getElementById("message").value
-							
-}).then(
-message => alert("Message sent succesfully")
-);
-}
-					</script>
-				</section> -->
+			</div>
+		</div>
+	</footer>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<div class="flex">
-						<div class="copyright">
-							&copy; Rion Glenn Nazareth | Design: <a href="https://templated.co">TEMPLATED</a>.
-						</div>
-					</div>
-				</div>
-			</footer>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
